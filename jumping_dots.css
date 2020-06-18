@@ -1,7 +1,7 @@
 body{
   padding: 0;
   margin: 0;
-  background-color: #fcdc29;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
   text-align: center;
   height:100vh;
   font-family: 'lato';
@@ -15,26 +15,25 @@ body{
 }
 .circle{
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  background-color: #fcdc29;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  animation: loading 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
-  transform-origin: bottom center;
+  animation: loading 2.0s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  #transform-origin: bottom center;
   position: relative;
 }
 @keyframes loading{
   0%{
     transform: translateY(0px);
-    background-color: #fcdc29;
+    background-color: #ffffff;
   }
   50%{
     transform: translateY(50px);
-    background-color: #ef584a;
+    background-color: #00ffff;
   }
   100%{
     transform: translateY(0px);
-    background-color: #fcdc29;
+    background-color: #0000ff;
   }
 }
 .circle-1{
@@ -55,10 +54,5 @@ body{
 .circle-6{
   animation-delay: 0.6s;
 }
-.circle-7{
-  animation-delay: 0.7s;
-}
-.circle-8{
-  animation-delay: 0.8s;
-}
+
 
