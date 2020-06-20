@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  text-align: center;
+  height:100vh;
+  font-family: 'lato';
+  font-weight: 100;
+}
+
+span {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: #00ffff;
+  top: 50%;
+  border-radius: 50%;
+}
+
+.dot-1 {
+  animation: loading 2.5s infinite cubic-bezier(.2,.64,.81,.23);
+}
+.dot-2 {
+  animation: loading 2.5s infinite cubic-bezier(.2,.64,.81,.23) 100ms;
+}
+.dot-3 {
+  animation: loading 2.5s infinite cubic-bezier(.2,.64,.81,.23) 200ms;
+}
+.dot-4 {
+  animation: loading 2.5s infinite cubic-bezier(.2,.64,.81,.23) 300ms;
+}
+
+
+@keyframes loading {
+  0% {left: 0%;}
+  100% {left:100%;}
+}
