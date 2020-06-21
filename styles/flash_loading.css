@@ -13,10 +13,13 @@ body {
   color: #00ffff;
   position:absolute;
   top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
+  left:40%;
 }
 
+span {
+  display: inline-block;
+  position: relative;
+}
 
 .l {
   animation: loading 3s infinite 0.3s;
