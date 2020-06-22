@@ -22,32 +22,32 @@ span {
 }
 
 .l {
-  animation: loading 3s infinite 0.3s;
+  animation: loading 3.2s infinite ease-in-out 0.2s;
 }
 
 .o {
-  animation: loading 3s infinite 0.6s;
+  animation: loading 3.2s infinite ease-in-out 0.4s;
 }
 
 .a {
-  animation: loading 3s infinite 0.9s;
+  animation: loading 3.2s infinite ease-in-out 0.6s;
 }
 
 .d {
-  animation: loading 2.9s infinite 1.2s
+  animation: loading 3.2s infinite ease-in-out 0.8s
 
 }
 
 .i {
-  animation: loading 2.8s infinite 1.5s;
+  animation: loading 3.2s infinite ease-in-out 1.0s;
 }
 
 .n {
-  animation: loading 2.8s infinite 1.8s;
+  animation: loading 3.2s infinite ease-in-out 1.2s;
 }
 
 .g {
-  animation: loading 2.8s infinite 2.1s;
+  animation: loading 3.2s infinite ease-in-out 1.4s;
 }
 
 @keyframes loading {
