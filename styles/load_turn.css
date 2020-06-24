@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  text-align: center;
+  height:100vh;
+  font-family: 'lato';
+}
+
+.loading {
+  font-weight: bold;
+  font-size: 5em;
+  color: #00ffff;
+  position:absolute;
+  top: 40%;
+  left: 30%;
+  perspective: 1000px;
+}
+
+span {
+  display: inline-block;
+  position: relative;
+}
+
+.l {
+  animation: loading 2.2s infinite linear;
+}
+
+.o {
+  animation: loading 2.2s infinite linear 0.2s;
+}
+
+.a {
+  animation: loading 2.2s infinite linear 0.4s;
+}
+
+.d {
+  animation: loading 2.2s infinite linear 0.6s
+
+}
+
+.i {
+  animation: loading 2.2s infinite linear 0.8s;
+}
+
+.n {
+  animation: loading 2.2s infinite linear 1.0s;
+}
+
+.g {
+  animation: loading 2.2s infinite linear 1.2s;
+}
+
+@keyframes loading {
+    20%{
+    transform: rotateY(90deg);
+  }
+  100%{
+    transform: rotateY(90deg);
+  }
+}
